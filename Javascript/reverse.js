@@ -21,6 +21,9 @@ console.log(reverseStr("I love to code"));
 
 //Reverse function using built in Javascript methods
 function reverseStr2(str){
+    //split turns the string to an array
+    //Reverse the array with the reverse method 
+    //join the array back to make a string.
     return str.split("").reverse().join("");
 }
 
