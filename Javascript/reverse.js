@@ -18,3 +18,10 @@ function reverseStr(str){
 
 console.log(reverseStr("Lagos is a very cool place to live in"));
 console.log(reverseStr("I love to code"));
+
+//Reverse function using built in Javascript methods
+function reverseStr2(str){
+    return str.split("").reverse().join("");
+}
+
+reverseStr2("Lagos");
